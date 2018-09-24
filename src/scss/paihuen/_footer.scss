@@ -1,0 +1,15 @@
+.footer{
+	img{
+		width: 100%;
+	}
+	ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    a {
+      padding: 10px;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+}

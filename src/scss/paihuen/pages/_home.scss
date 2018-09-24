@@ -1,0 +1,50 @@
+.home--banner{
+	height: 100px;
+	width: auto;
+}
+
+.circle{
+	background-color: #096f56;
+	height: 250px;
+	width: 250px;
+    border-radius: 50%;
+	color: #fffadd;
+	text-aling: center;
+	i{
+		font-size:30px;
+	}
+	.fa-bus{
+		font-size: 50px;
+	}
+	.fa-home{
+		font-size: 50px;
+		text-aling: center;
+	}
+	.fa-map-marked-alt{
+		font-size: 50px;
+	}
+}
+
+.texto{
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+
+.columns{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	margin-right: auto;
+	margin-left: auto;
+	text-aling: center;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+	
+}

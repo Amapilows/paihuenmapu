@@ -1,0 +1,22 @@
+header{
+  background-color: #08342d;
+  color: white;
+  height: 100px;
+  width: 100%;
+  ul li {
+    float: right;
+    display: inline-block;
+    list-style-type: none;
+    text-align: right;
+    a {
+      padding: 10px;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+  .logo{
+    margin-top: 12px;
+  }
+}
+
+  
