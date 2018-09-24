@@ -3,7 +3,7 @@
 <?php } ?>
 
 <?php wp_footer() ?>
-	<footer>
+	<footer background>
 		<div class="footer">
 			<ul>
 				<li> <a> Inicio | </a></li>
@@ -13,7 +13,9 @@
 				<li> <a> Blog | </a></li>
 				<li> <a> Contacto </a></li>
 			</ul>
-			<img src="<?php echo get_template_directory_uri(); ?>/src/images/footer-image.png">
+			<i class="fab fa-facebook-square"></i>
+			<i class="fab fa-instagram"></i>
+
 		</div>
 	</footer>
 

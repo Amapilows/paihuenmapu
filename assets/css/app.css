@@ -16046,21 +16046,30 @@ header .logo {
   margin-top: 12px;
 }
 
-.footer img {
+footer {
+  height: 650px;
   width: 100%;
+  background: url(../images/footer-image.png?eb57a15ed56511e692a35deb57de717e) no-repeat center center;
+  background-size: cover;
+  text-align: center;
 }
 
-.footer ul li {
+footer .footer ul li {
   display: inline-block;
   list-style-type: none;
   text-align: center;
   color: white;
 }
 
-.footer ul li a {
+footer .footer ul li a {
   padding: 10px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
+}
+
+footer .footer ul li .fab {
+  color: white;
+  font-size: 30px;
 }
 
 body {
