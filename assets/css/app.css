@@ -16027,6 +16027,7 @@ header {
   color: white;
   height: 100px;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header ul li {
@@ -16039,7 +16040,6 @@ header ul li {
 header ul li a {
   padding: 10px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
 }
 
 header .logo {
@@ -16054,6 +16054,7 @@ header .logo {
   display: inline-block;
   list-style-type: none;
   text-align: center;
+  color: white;
 }
 
 .footer ul li a {

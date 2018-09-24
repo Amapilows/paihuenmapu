@@ -3,6 +3,7 @@ header{
   color: white;
   height: 100px;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;  
   ul li {
     float: right;
     display: inline-block;
@@ -11,7 +12,6 @@ header{
     a {
       padding: 10px;
       text-transform: uppercase;
-      font-family: 'Montserrat', sans-serif;
     }
   }
   .logo{
