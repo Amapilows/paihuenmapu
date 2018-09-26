@@ -6,6 +6,6 @@ require('bootstrap');
 
 $(document).ready( function($) {
 	alert('hola');
-	// Functions
+
 
 });

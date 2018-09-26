@@ -16031,7 +16031,6 @@ header {
 }
 
 header ul li {
-  float: right;
   display: inline-block;
   list-style-type: none;
   text-align: right;
@@ -16054,11 +16053,22 @@ footer {
   text-align: center;
 }
 
+footer .footer {
+  padding-top: 326px;
+}
+
 footer .footer ul li {
+  font-size: 25px;
   display: inline-block;
   list-style-type: none;
   text-align: center;
   color: white;
+}
+
+@media (min-width: 576px) {
+  footer .footer ul li {
+    font-size: 15px;
+  }
 }
 
 footer .footer ul li a {
@@ -16067,13 +16077,15 @@ footer .footer ul li a {
   font-family: 'Montserrat', sans-serif;
 }
 
-footer .footer ul li .fab {
+footer div i {
   color: white;
   font-size: 30px;
+  margin: 5px;
 }
 
 body {
   background-color: #fffadd;
+  margin: 0;
 }
 
 body p {
@@ -16092,6 +16104,7 @@ body h5 {
 
 body {
   background-color: #fffadd;
+  margin: 0;
 }
 
 body p {
@@ -16113,30 +16126,22 @@ body h5 {
   width: auto;
 }
 
+.title {
+  text-align: center;
+}
+
 .circle {
   background-color: #096f56;
   height: 250px;
   width: 250px;
   border-radius: 50%;
   color: #fffadd;
-  text-aling: center;
+  text-align: center;
+  line-height: 20;
 }
 
 .circle i {
-  font-size: 30px;
-}
-
-.circle .fa-bus {
-  font-size: 50px;
-}
-
-.circle .fa-home {
-  font-size: 50px;
-  text-aling: center;
-}
-
-.circle .fa-map-marked-alt {
-  font-size: 50px;
+  font-size: 9rem;
 }
 
 .texto {
@@ -16145,35 +16150,11 @@ body h5 {
   float: left;
 }
 
-.columns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 5px 0;
+.medio {
+  margin: 20px 0;
 }
 
-.column {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  margin-right: auto;
-  margin-left: auto;
-  text-aling: center;
-  padding: 10px;
-}
-
-.column:first-child {
-  margin-left: 0;
-}
-
-.column:last-child {
-  margin-right: 0;
+.slider {
+  margin: 50px 0;
 }
 

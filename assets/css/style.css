@@ -1,11 +1,16 @@
 @charset "UTF-8";
-/* Main Style */
 /*
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
+Theme Name: PaihuenMapu
+Theme URI: 
+Author: Javi Baeza
+Author URI: 
+Description: Theme para sitio web de cabañas en Pucón
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: cabañas, mobile first, responsive, pucón
+Text Domain: www.paihuenmapu.cl
+*/
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
