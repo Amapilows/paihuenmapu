@@ -16195,6 +16195,7 @@ body h5 {
   border: 2px solid black;
   margin: 20px;
   padding: 30px;
+  text-aling: center;
 }
 
 .cards_home h3 {
@@ -16208,6 +16209,8 @@ body h5 {
 .cards_home .btn__cards {
   background-color: #096f56;
   margin: 0 auto;
+  border: none;
+  text-transform: uppercase;
 }
 
 .description_home {
