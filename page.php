@@ -1,10 +1,9 @@
 <?php get_header() ?>
 	<?php the_post() ?>
-	
-	<?php the_post_thumbnail() ?>
+
 		<div class="home--banner">
-			<div>
-				<h4>reconéctate con la naturaleza</h4>
+			<div class="col-md-offset-3 banner-text">
+				<h4 class="title_banner">reconéctate con la naturaleza</h4>
 				<p> Cabañas paihuen mapu, ubicadas  entre bosques cerca del río tubio a 10 minutos de pucón y la naturaleza</p>
 			</div>
 		</div>
@@ -17,27 +16,30 @@
 
 		<div class="container">
 		  <div class="row">
-		    <div class="col-sm">
+		    <div class="col-sm cards_home">
 		      	<div class="circle">
 					<i class="fas fa-home"></i>
 				</div>
-				<h3> Cabañas</h3>
+				<h3 class="sub_title"> Cabañas</h3>
 				<p> listacdsfjshf</p>
-				<button class="btn btn-success">Ver Más</button>			
+				<button class="btn btn-success btn__cards">Ver Más</button>			
 		    </div>
-		    <div class="col-sm">
+		    <div class="col-sm cards_home">
 				<div class="circle">
 					<i class="fas fa-bus"></i>
 				</div>
-				<h3> Turismo</h3>
-				<p> listacdsfjshf</p>
-				<button class="btn btn-success">Ver Más</button>
+				<div class="description_home">
+					<h3 class="sub_title"> Turismo</h3>
+					<p> listacdsfjshf</p>
+					<button class="btn btn-success">Ver Más</button>	
+				</div>
+				
 		    </div>
 		    <div class="col-sm cards_home">
 				<div class="circle">
 					<i class="fas fa-map-marked-alt"></i>
 				</div>
-				<h3> Ubicación</h3>
+				<h3 class="sub_title"> Ubicación</h3>
 				<p> listacdsfjshf</p>
 				<button class="btn btn-success">Ver Más</button>
 		    </div>

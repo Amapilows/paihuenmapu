@@ -16122,8 +16122,40 @@ body h5 {
 }
 
 .home--banner {
-  height: 100px;
-  width: auto;
+  background: url(../images/copihues.jpg?638dd98953b9320aea16df2ff1842f99) no-repeat center center;
+  background-size: cover;
+  height: 720px;
+  padding-top: 460px;
+  padding-left: 120px;
+}
+
+.home--banner .title_banner {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+.home--banner p {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.banner-text {
+  background-color: #0a3234;
+  height: 170px;
+  width: 680px;
+  padding: 30px;
+  opacity: 0.8;
+}
+
+.banner-text h4 {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'raleway', sans-serif;
+  font-weight: 800;
 }
 
 .title {
@@ -16138,6 +16170,7 @@ body h5 {
   color: #fffadd;
   text-align: center;
   line-height: 20;
+  margin: 20px auto;
 }
 
 .circle i {
@@ -16156,5 +16189,28 @@ body h5 {
 
 .slider {
   margin: 50px 0;
+}
+
+.cards_home {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 30px;
+}
+
+.cards_home h3 {
+  text-align: center;
+}
+
+.cards_home p {
+  text-align: center;
+}
+
+.cards_home .btn__cards {
+  background-color: #096f56;
+  margin: 0 auto;
+}
+
+.description_home {
+  text-aling: center;
 }
 
