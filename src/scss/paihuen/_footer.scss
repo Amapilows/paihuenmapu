@@ -7,7 +7,7 @@ footer{
     .footer-menu{
     	padding-top: 326px;
 		ul li {
-		font-size: 30px;
+		font-size: 40px;
 	    display: inline-block;
 	    list-style-type: none;
 	    text-align: center;
@@ -29,5 +29,14 @@ footer{
     	color: white;
 		font-size: 30px;
 		margin: 5px;
+    }
+    .information--footer{
+    	p{
+    		color: white;
+    		font-size: 30px;
+    	    @media (min-width: 576px) {
+			font-size: 20px;
+			}		
+    	}
     }	 
 }

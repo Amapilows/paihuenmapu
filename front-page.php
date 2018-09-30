@@ -59,10 +59,9 @@
 		    </div>
 		  </div>
 		</div>
-		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-xs-12 form_contact">
-					Aqui va el mapa de google
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.331491306524!2d-71.8921476840752!3d-39.303408828507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961386e8325c4f2d%3A0x83affd5a0ead1b2!2sCaba%C3%B1as+Paihuen+Mapu!5e0!3m2!1ses!2scl!4v1538323280354" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 				<div class="col-lg-6 col-xs-12 form_contact">
 					<form>
@@ -82,7 +81,6 @@
 					  <button type="submit" class="btn btn-primary">Submit</button>
 					</form>	
 				</div>		
-			</div>
 			
 		</div>
 

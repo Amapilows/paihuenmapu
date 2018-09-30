@@ -16072,7 +16072,7 @@ footer .footer-menu {
 }
 
 footer .footer-menu ul li {
-  font-size: 30px;
+  font-size: 40px;
   display: inline-block;
   list-style-type: none;
   text-align: center;
@@ -16098,6 +16098,17 @@ footer div i {
   color: white;
   font-size: 30px;
   margin: 5px;
+}
+
+footer .information--footer p {
+  color: white;
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  footer .information--footer p {
+    font-size: 20px;
+  }
 }
 
 body {
