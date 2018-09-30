@@ -16022,26 +16022,40 @@ ul.page-nav li:last-child {
 
 /* <!---- Landscape Orientation ----> */
 
-header {
+nav {
   background-color: #08342d;
-  color: white;
   height: 100px;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
 }
 
-header ul li {
+.header_menu {
+  width: 100%;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.header_menu ul {
+  float: right;
+  list-style-type: none;
+}
+
+.header_menu ul li {
   display: inline-block;
   list-style-type: none;
   text-align: right;
 }
 
-header ul li a {
+.header_menu ul li a {
   padding: 10px;
   text-transform: uppercase;
+  color: white;
 }
 
-header .logo {
+.header_menu ul li a a:hover {
+  text-decoration: underline;
+}
+
+.header_menu .logo {
   margin-top: 12px;
 }
 
@@ -16053,12 +16067,12 @@ footer {
   text-align: center;
 }
 
-footer .footer {
+footer .footer-menu {
   padding-top: 326px;
 }
 
-footer .footer ul li {
-  font-size: 25px;
+footer .footer-menu ul li {
+  font-size: 30px;
   display: inline-block;
   list-style-type: none;
   text-align: center;
@@ -16066,15 +16080,18 @@ footer .footer ul li {
 }
 
 @media (min-width: 576px) {
-  footer .footer ul li {
-    font-size: 15px;
+  footer .footer-menu ul li {
+    font-size: 20px;
   }
 }
 
-footer .footer ul li a {
+footer .footer-menu ul li a {
   padding: 10px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
 }
 
 footer div i {

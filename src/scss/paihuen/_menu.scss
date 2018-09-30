@@ -1,9 +1,17 @@
-header{
-  background-color: #08342d;
-  color: white;
-  height: 100px;
+nav{
+    background-color: #08342d;
+    height: 100px;
+    width: 100%;
+}
+
+.header_menu{
   width: 100%;
-  font-family: 'Montserrat', sans-serif;  
+  font-family: 'Montserrat';
+  font-weight: 700;
+  ul{
+    float: right;
+    list-style-type: none;
+  }  
   ul li {
     display: inline-block;
     list-style-type: none;
@@ -11,6 +19,12 @@ header{
     a {
       padding: 10px;
       text-transform: uppercase;
+      color: white;
+    a:hover{
+      text-decoration: underline;
+
+    }  
+
     }
   }
   .logo{
