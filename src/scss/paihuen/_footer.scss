@@ -7,14 +7,15 @@ footer{
     .footer-menu{
     	padding-top: 326px;
 		ul li {
-		font-size: 40px;
+		font-size: 25px;
 	    display: inline-block;
 	    list-style-type: none;
 	    text-align: center;
 	    color: white;
-	    @media (min-width: 576px) {
-		font-size: 20px;
+	    @media (max-width: 576px) {
+		font-size: 15px;
 		}
+
 	    a {
 	      padding: 10px;
 	      text-transform: uppercase;
@@ -23,19 +24,23 @@ footer{
 	      color: white;
 	      font-weight: 700;
 	    }
+	    a:hover{
+	    	text-decoration: underline;
+	    	color: #096f56;
+	    }
 	  }
 	}
     div i{
     	color: white;
-		font-size: 30px;
+		font-size: 25px;
 		margin: 5px;
     }
     .information--footer{
     	p{
     		color: white;
-    		font-size: 30px;
-    	    @media (min-width: 576px) {
-			font-size: 20px;
+    		font-size: 25px;
+    	    @media (max-width: 576px) {
+			font-size: 15px;
 			}		
     	}
     }	 

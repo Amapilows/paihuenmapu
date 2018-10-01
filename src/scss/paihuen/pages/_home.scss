@@ -33,6 +33,7 @@
 }
 .title{
 	text-align: center;
+	margin-top: 50px;
 }
 
 .circle{
@@ -59,19 +60,18 @@
 }
 
 .slider{
-	margin: 50px 0;
+	margin: 50px 0 0 0;
 }
 
 .cards_home{
-	border: 2px solid black;
 	margin: 20px;
-	padding: 30px;
-	text-aling: center;
+    padding: 30px;
 	h3{
 		text-align: center;
 	}
 	p{
 		text-align: center;
+		font-size: 17px;
 	}
 	.btn__cards{
 		background-color: #096f56;
@@ -79,8 +79,32 @@
 		border: none;
 		text-transform: uppercase;
 	}
+	button{
+		text-aling: center;
+	}
 }
 
 .description_home{
 	text-aling: center;
+}
+
+.google_maps iframe{
+	width: 100%;
+	padding: 0;
+}
+
+.form_contact{
+	background: url('../images/formulario-fondo.png') no-repeat center center;
+	background-size: cover;	
+	padding: 50px;
+	.title_form{
+		color: white;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.mensaje_form{
+		width: 100%;
+    	height: 300px;
+    	padding: 10px;
+	}
 }

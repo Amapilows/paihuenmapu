@@ -22,8 +22,11 @@ nav{
       color: white;
     a:hover{
       text-decoration: underline;
-
-    }  
+      color: #29525c;
+    }
+    a:active{
+      color: #096f56;
+    }
 
     }
   }
