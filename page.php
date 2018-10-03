@@ -1,8 +1,21 @@
 <?php get_header() ?>
-	<?php ther_post() ?>
+	
+	<?php the_post_thumbnail();  ?>	
 
-	<?php ther_post_thumbnail() ?>
-	<?php the_title() ?>	
-	<?php the_content() ?>	
-	<p>estoy en la pagina faq</p>
+		<div class="container">
+		<div class="row">
+
+		<?php the_post() ?>
+
+		<?php the_title() ?>
+		<?php the_content(); ?>		
+		</div>
+
+	</div>
+
+	            
+	
+
+
+
 <?php get_footer() ?>
