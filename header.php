@@ -10,14 +10,25 @@
 	<?php wp_head() ?>
 </head>
 <body>
-<nav class="navbar navbar-expand flex-column flex-md-row bd-navbar fixed-top">
-  <div class="navbar navbar-expand-lg ">
-    <a class="navbar-brand" href="#">
+<nav class="navbar fixed-top">
+  <div class="menu_principal">
+    <div class="">
+      <a class="navbar-brand" href="#">
         <img src="<?php echo get_template_directory_uri(); ?>/src/images/logo.png" class="logo">
-        </a>
-  <div>
-  <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
+      </a>
+    </div>
+    <div class="mobile_menu">
+      <a href="" class="mobile"><i class="fas fa-bars"></i></a>
+    </div>  
+    <div class="contenedor navegación">
+      <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
+      <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu' ) ); ?>
+      <?php } ?>        
+    </div>
+  </div>
+  
+    
 
-  <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu' ) ); ?>
-  <?php } ?>
+
+
 </nav>

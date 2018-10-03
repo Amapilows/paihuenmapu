@@ -10,9 +10,9 @@
 		<div class="row">
 			<div class="container">
 				<h1 class="title">¿Qué puedes encontrar?</h1>	
-				</div>
 			</div>
 		</div>
+
 		  <div class="row">
 		    <div class="col-sm cards_home">
 		      	<div class="circle">

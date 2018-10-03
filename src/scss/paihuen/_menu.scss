@@ -1,21 +1,33 @@
 nav{
     background-color: #08342d;
-    height: 100px;
     width: 100%;
+    padding: 10px;
+    .menu_principal{
+      display: contents;
+    }
 }
 
 .header_menu{
   width: 100%;
   font-family: 'Montserrat';
   font-weight: 700;
+  display: none;
+  @media only screen and (min-width: 810px){
+    display: block;
+  }
   ul{
-    float: right;
     list-style-type: none;
+    float: right;
   }  
   ul li {
     display: inline-block;
     list-style-type: none;
     text-align: right;
+    @media only screen and (max-width: 809px){
+      display: block;
+      text-align: right;
+      line-height: 2;
+    }
     a {
       padding: 10px;
       text-transform: uppercase;
@@ -26,13 +38,35 @@ nav{
     }
     a:active {
       color: #096f56;
-    }
-
+      }
     }
   }
   .logo{
     margin-top: 12px;
   }
 }
+
+
+/**RESPONSIVE MENU**/
+@media only screen and (max-width: 809px){
+    .mobile_menu a{
+      height: 40px;
+      width: 100%;
+      color: white;
+      display: block;
+      text-align: center;
+      line-height: 40px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+  }
+
+@media only screen and (min-width: 810px){
+  .mobile_menu a{
+    display: none;
+  }
+}
+
 
   
