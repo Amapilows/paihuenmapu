@@ -1,5 +1,6 @@
 <?php get_header() ?>
 	
+	<?php while(have_post()): the_post(); ?>
 	<div class="container">
 		<div class="row">
 			<?php the_post() ?>
@@ -8,7 +9,7 @@
 			
 			<?php if ( is_active_sidebar( 'contact_widget' ) ) : ?>
 				<?php dynamic_sidebar( 'contact_widget' ); ?>            
-			<?php endif; ?>			
+			<?php endif; ?>				
 		</div>
 
 	</div>

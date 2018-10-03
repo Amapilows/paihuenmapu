@@ -1,17 +1,22 @@
 <?php get_header() ?>
-	
-	<?php the_post_thumbnail();  ?>	
+	<?php 
+		$imagen = get_the_post_thumbnail_url();
+	 ?>
 
-		<div class="container">
-		<div class="row">
+	<div class="page_style">
+		<div class="contenido-hero" style="background-image: url("<?php get_the_post_thumbnail_url(); ?>");"
+			<div class="textto-hero">
 
-		<?php the_post() ?>
+				<?php the_post() ?>
+				<?php the_title() ?>
+				<?php the_content(); ?>		
+			</div>
 
-		<?php the_title() ?>
-		<?php the_content(); ?>		
-		</div>
-
+		</div>		
 	</div>
+		<?php the_post_thumbnail();  ?>	
+
+
 
 	            
 	

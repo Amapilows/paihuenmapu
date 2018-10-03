@@ -16197,6 +16197,12 @@ body h5 {
   text-aling: center;
 }
 
+.page_style {
+  margin: 170px auto 0 auto;
+  background-color: pink;
+  width: 70%;
+}
+
 .home--banner {
   background: url(../images/copihues.jpg?638dd98953b9320aea16df2ff1842f99) no-repeat center center;
   background-size: cover;
