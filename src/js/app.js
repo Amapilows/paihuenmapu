@@ -5,7 +5,17 @@ require('popper.js');
 require('bootstrap');
 
 $(document).ready( function($) {
-	alert('hola');
+	$('.mobile_menu a').on('click', function(){
+		$('nav.header_menu').toggle('slow');
+	});
 
+	var breakpoint =810;
+	$(window).resize(function(){
+		if($(document).width() >= breakpoint){
+			$('nav.header_menu').show();
+		} else {
+			$('nav.header_menu').hide();
+		}
+	});
 
 });

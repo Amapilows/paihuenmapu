@@ -12,18 +12,24 @@
 <body>
 <nav class="navbar fixed-top">
   <div class="menu_principal">
-    <div class="">
+    <div class="menu">
       <a class="navbar-brand" href="#">
         <img src="<?php echo get_template_directory_uri(); ?>/src/images/logo.png" class="logo">
       </a>
     </div>
     <div class="mobile_menu">
       <a href="" class="mobile"><i class="fas fa-bars"></i></a>
-    </div>  
-    <div class="contenedor navegación">
+    </div> 
+
+    <div class="navbar-nav ml-auto">
       <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
-      <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu' ) ); ?>
-      <?php } ?>        
+      <?php wp_nav_menu( array( 
+        'theme_location' => 'header-menu',
+        'container' => 'nav', 
+        'container_class' => 'header_menu' 
+        ) ); ?>
+      <?php } ?> 
+        
     </div>
   </div>
   

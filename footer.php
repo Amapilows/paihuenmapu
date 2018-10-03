@@ -21,7 +21,7 @@
 		</div>
 	</footer>
 
-     <script  src="../assets/js/app.js"></script>
+     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>../assets/js/app.js"> </script>
 
 </body>
 </html>

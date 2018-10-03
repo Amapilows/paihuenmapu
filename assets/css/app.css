@@ -16028,10 +16028,6 @@ nav {
   padding: 10px;
 }
 
-nav .menu_principal {
-  display: contents;
-}
-
 .header_menu {
   width: 100%;
   font-family: 'Montserrat';
@@ -16059,7 +16055,7 @@ nav .menu_principal {
 @media only screen and (max-width: 809px) {
   .header_menu ul li {
     display: block;
-    text-align: right;
+    text-align: center;
     line-height: 2;
   }
 }

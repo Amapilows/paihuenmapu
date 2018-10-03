@@ -4,5 +4,5 @@
 	<?php ther_post_thumbnail() ?>
 	<?php the_title() ?>	
 	<?php the_content() ?>	
-	<p> pirulin</p>
+	<p>estoy en la pagina faq</p>
 <?php get_footer() ?>
