@@ -12986,7 +12986,8 @@ __webpack_require__(1);
 __webpack_require__(5);
 
 __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function ($) {
-	$('.mobile_menu a').on('click', function () {
+	$('.mobile_menu').on('click', function (event) {
+		event.stopPropagation();
 		$('nav.header_menu').toggle('slow');
 	});
 

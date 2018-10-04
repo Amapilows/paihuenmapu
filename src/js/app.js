@@ -5,7 +5,8 @@ require('popper.js');
 require('bootstrap');
 
 $(document).ready( function($) {
-	$('.mobile_menu a').on('click', function(){
+	$('.mobile_menu').on('click', function(event){ 
+		event.stopPropagation();
 		$('nav.header_menu').toggle('slow');
 	});
 

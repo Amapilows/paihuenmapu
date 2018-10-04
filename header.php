@@ -18,7 +18,7 @@
       </a>
     </div>
     <div class="mobile_menu">
-      <a href="" class="mobile"><i class="fas fa-bars"></i></a>
+      <a href="#" class="mobile"><i class="fas fa-bars"></i></a>
     </div> 
 
     <div class="navbar-nav ml-auto">
