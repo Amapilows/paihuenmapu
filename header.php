@@ -11,7 +11,7 @@
 </head>
 <body>
 <nav class="navbar fixed-top">
-  <div class="menu_principal">
+  <div class="menu-paihuen">
     <div class="menu">
       <a class="navbar-brand" href="#">
         <img src="<?php echo get_template_directory_uri(); ?>/src/images/logo.png" class="logo">

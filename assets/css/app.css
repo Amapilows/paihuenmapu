@@ -16028,7 +16028,7 @@ nav {
   padding: 10px;
 }
 
-.header_menu {
+.menu-paihuen {
   width: 100%;
   font-family: 'Montserrat';
   font-weight: 700;
@@ -16036,53 +16036,53 @@ nav {
 }
 
 @media only screen and (min-width: 810px) {
-  .header_menu {
+  .menu-paihuen {
     display: block;
   }
 }
 
-.header_menu ul {
+.menu-paihuen ul {
   list-style-type: none;
   float: right;
 }
 
-.header_menu ul li {
+.menu-paihuen ul li {
   display: inline-block;
   list-style-type: none;
   text-align: right;
 }
 
 @media only screen and (max-width: 809px) {
-  .header_menu ul li {
+  .menu-paihuen ul li {
     display: block;
     text-align: center;
     line-height: 2;
   }
 }
 
-.header_menu ul li a {
+.menu-paihuen ul li a {
   padding: 10px;
   text-transform: uppercase;
   color: white;
 }
 
-.header_menu ul li a a:hover {
+.menu-paihuen ul li a a:hover {
   text-decoration: underline;
   color: #29525c;
 }
 
-.header_menu ul li a a:active {
+.menu-paihuen ul li a a:active {
   color: #096f56;
 }
 
-.header_menu .logo {
+.menu-paihuen .logo {
   margin-top: 12px;
 }
 
 /**RESPONSIVE MENU**/
 
 @media only screen and (max-width: 809px) {
-  .mobile_menu a {
+  .mobile-menu a {
     height: 40px;
     width: 100%;
     color: white;
@@ -16096,7 +16096,7 @@ nav {
 }
 
 @media only screen and (min-width: 810px) {
-  .mobile_menu a {
+  .mobile-menu a {
     display: none;
   }
 }

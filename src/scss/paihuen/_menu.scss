@@ -2,12 +2,10 @@ nav{
     background-color: #08342d;
     width: 100%;
     padding: 10px;
-    .menu_principal{
-      
-    }
+
 }
 
-.header_menu{
+.menu-paihuen{
   width: 100%;
   font-family: 'Montserrat';
   font-weight: 700;
@@ -49,7 +47,7 @@ nav{
 
 /**RESPONSIVE MENU**/
 @media only screen and (max-width: 809px){
-    .mobile_menu a{
+    .mobile-menu a{
       height: 40px;
       width: 100%;
       color: white;
@@ -63,7 +61,7 @@ nav{
   }
 
 @media only screen and (min-width: 810px){
-  .mobile_menu a{
+  .mobile-menu a{
     display: none;
   }
 }
