@@ -16252,26 +16252,6 @@ body h5 {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .mobile-menu a {
-    height: 40px;
-    width: 100%;
-    color: white;
-    display: block;
-    text-align: center;
-    line-height: 40px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-}
-
-@media only screen and (min-width: 767px) {
-  .mobile-menu a {
-    display: none;
-  }
-}
-
 .banner-text {
   background-color: #0a3234;
   height: 170px;
