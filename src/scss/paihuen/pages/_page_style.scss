@@ -1,7 +1,9 @@
 .page_style{
 	margin: 170px auto 0 auto;
-	background-color: pink;
 	width: 70%;
+	@media (max-width: 576px) {
+		width: 85%;
+	}
 
 
 }
