@@ -16216,10 +16216,24 @@ body h5 {
   padding-left: 120px;
 }
 
+@media only screen and (max-width: 768px) {
+  .home--banner {
+    padding-top: 200px;
+  }
+}
+
 .home--banner .title_banner {
   font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .home--banner .title_banner {
+    font-size: 20px;
+    -webkit-text-decoration: center;
+            text-decoration: center;
+  }
 }
 
 .home--banner p {
@@ -16230,8 +16244,32 @@ body h5 {
   line-height: 2;
 }
 
-.pichula {
-  color: gray;
+@media only screen and (max-width: 768px) {
+  .home--banner p {
+    font-size: 12px;
+    -webkit-text-decoration: center;
+            text-decoration: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-menu a {
+    height: 40px;
+    width: 100%;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .mobile-menu a {
+    display: none;
+  }
 }
 
 .banner-text {
@@ -16240,6 +16278,13 @@ body h5 {
   width: 680px;
   padding: 30px;
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-text {
+    width: 450px;
+    padding: 15px;
+  }
 }
 
 .banner-text h4 {
