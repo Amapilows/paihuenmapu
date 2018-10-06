@@ -22,6 +22,7 @@
 	</footer>
 
      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>../assets/js/app.js"> </script>
+     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </body>
 </html>

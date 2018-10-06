@@ -16164,8 +16164,9 @@ footer .information--footer p {
 }
 
 body {
-  background-color: #fff;
+  background-color: #fffadd;
   margin: 0;
+  padding: 0;
 }
 
 body p {
@@ -16179,12 +16180,13 @@ body h4,
 body h5 {
   font-family: 'Montserrat', sans-serif;
   color: #03313a;
-  text-aling: center;
+  text-align: center;
 }
 
 body {
-  background-color: #fff;
+  background-color: #fffadd;
   margin: 0;
+  padding: 0;
 }
 
 body p {
@@ -16198,11 +16200,11 @@ body h4,
 body h5 {
   font-family: 'Montserrat', sans-serif;
   color: #03313a;
-  text-aling: center;
+  text-align: center;
 }
 
 .page_style {
-  margin: 170px auto 0 auto;
+  margin: 10px auto 0 auto;
   width: 70%;
 }
 
@@ -16210,6 +16212,34 @@ body h5 {
   .page_style {
     width: 85%;
   }
+}
+
+.hero {
+  background-color: black;
+  height: 450px;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  padding: 60px;
+  background-color: #fff;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .principal {
+    margin-top: -90px;
+  }
+}
+
+.contenido-paginas p {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.texto-centrado {
+  text-align: center;
 }
 
 .home--banner {
