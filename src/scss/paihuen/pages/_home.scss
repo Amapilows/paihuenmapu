@@ -4,17 +4,10 @@
     height: 720px;
     padding-top: 460px;
     padding-left: 120px;
-    @media only screen and (max-width: 768px){
-    	padding-top: 200px; 
-    }
    .title_banner{
     	font-family: 'Montserrat', sans-serif;
     	font-size: 26px;
     	text-align: center;
-    	@media only screen and (max-width: 768px){
-    		font-size: 20px;
-    		text-decoration: center
-    	}
     }
     p{
     	color: white;
@@ -22,23 +15,18 @@
 	    text-align: center;
 	    font-size: 18px;
 	    line-height: 2;
-    	@media only screen and (max-width: 768px){
-    		font-size: 12px;
-    		text-decoration: center
-    	}	    
     }
 }
 
+.pichula{
+	color: gray;
+}
 .banner-text{
 	background-color: #0a3234;
 	height: 170px;
 	width: 680px;
 	padding: 30px;
 	opacity: 0.8;
-	@media only screen and (max-width: 768px){
-    	width: 450px;
-    	padding: 15px;
-   	}
 	h4{
 		text-transform: uppercase;
 	    color: white;

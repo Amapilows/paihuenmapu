@@ -16028,7 +16028,11 @@ nav {
   padding: 10px;
 }
 
-.menu-paihuen {
+.menu_principal {
+  display: -webkit-box;
+}
+
+.header_menu {
   width: 100%;
   font-family: 'Montserrat';
   font-weight: 700;
@@ -16036,53 +16040,53 @@ nav {
 }
 
 @media only screen and (min-width: 810px) {
-  .menu-paihuen {
+  .header_menu {
     display: block;
   }
 }
 
-.menu-paihuen ul {
+.header_menu ul {
   list-style-type: none;
   float: right;
 }
 
-.menu-paihuen ul li {
+.header_menu ul li {
   display: inline-block;
   list-style-type: none;
   text-align: right;
 }
 
 @media only screen and (max-width: 809px) {
-  .menu-paihuen ul li {
+  .header_menu ul li {
     display: block;
     text-align: center;
     line-height: 2;
   }
 }
 
-.menu-paihuen ul li a {
+.header_menu ul li a {
   padding: 10px;
   text-transform: uppercase;
   color: white;
 }
 
-.menu-paihuen ul li a a:hover {
+.header_menu ul li a a:hover {
   text-decoration: underline;
   color: #29525c;
 }
 
-.menu-paihuen ul li a a:active {
+.header_menu ul li a a:active {
   color: #096f56;
 }
 
-.menu-paihuen .logo {
+.header_menu .logo {
   margin-top: 12px;
 }
 
 /**RESPONSIVE MENU**/
 
 @media only screen and (max-width: 809px) {
-  .mobile-menu a {
+  .mobile_menu a {
     height: 40px;
     width: 100%;
     color: white;
@@ -16096,7 +16100,7 @@ nav {
 }
 
 @media only screen and (min-width: 810px) {
-  .mobile-menu a {
+  .mobile_menu a {
     display: none;
   }
 }
@@ -16216,24 +16220,10 @@ body h5 {
   padding-left: 120px;
 }
 
-@media only screen and (max-width: 768px) {
-  .home--banner {
-    padding-top: 200px;
-  }
-}
-
 .home--banner .title_banner {
   font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-  .home--banner .title_banner {
-    font-size: 20px;
-    -webkit-text-decoration: center;
-            text-decoration: center;
-  }
 }
 
 .home--banner p {
@@ -16244,12 +16234,8 @@ body h5 {
   line-height: 2;
 }
 
-@media only screen and (max-width: 768px) {
-  .home--banner p {
-    font-size: 12px;
-    -webkit-text-decoration: center;
-            text-decoration: center;
-  }
+.pichula {
+  color: gray;
 }
 
 .banner-text {
@@ -16258,13 +16244,6 @@ body h5 {
   width: 680px;
   padding: 30px;
   opacity: 0.8;
-}
-
-@media only screen and (max-width: 768px) {
-  .banner-text {
-    width: 450px;
-    padding: 15px;
-  }
 }
 
 .banner-text h4 {
