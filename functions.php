@@ -6,6 +6,10 @@ function paihuen_setup(){
 }
 add_action('after_setup_theme', 'paihuen_setup');
 
+
+
+	
+
 /**
  * Import functions folder
  * Imports all the files inside the functions folder 

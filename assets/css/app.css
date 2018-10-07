@@ -16177,7 +16177,8 @@ body h1,
 body h2,
 body h3,
 body h4,
-body h5 {
+body h5,
+body h6 {
   font-family: 'Montserrat', sans-serif;
   color: #03313a;
   text-align: center;
@@ -16197,7 +16198,8 @@ body h1,
 body h2,
 body h3,
 body h4,
-body h5 {
+body h5,
+body h6 {
   font-family: 'Montserrat', sans-serif;
   color: #03313a;
   text-align: center;
@@ -16215,15 +16217,40 @@ body h5 {
 }
 
 .hero {
-  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   height: 450px;
   text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 70px;
+}
+
+.contenido-hero {
+  color: #ffffff;
+  width: 100vw;
+}
+
+.texto-hero {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .texto-hero {
+    width: 60%;
+  }
+}
+
+.texto-hero h1 {
   color: white;
+  font-weight: 700;
 }
 
 .principal {
   padding: 60px;
-  background-color: #fff;
+  background-color: pink;
   position: relative;
 }
 

@@ -1,21 +1,20 @@
 <?php get_header() ?>
 	
-	<?php while(have_post()): the_post() ?>
-		<div class="hero">
-			<div class="contenedor-hero">
-				<div class="texto-hero">
-					<?php the_title('<h1>, </h1>') ?>
-					
-				</div>
+
+	<div class="hero" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>">
+		<div class="contenedor-hero">
+			<div class="texto-hero">
+				<h1><?php the_title() ?></h1>
+				
 			</div>
 		</div>
-
-		<div class="prinipal-contenedor">
-			<main class="text-centrado contenido-paginas">
-				<?php the_content(); ?>			
-			</main>
+	</div>
+	
+	<div class="principal container">
+		<div class="texto-centrado contenido-paginas">
+			<?php the_content(); ?>				
 		</div>
-	<?php endwhile; ?>
+	</div>
 
 
 <?php get_footer() ?>

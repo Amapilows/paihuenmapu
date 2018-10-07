@@ -7,15 +7,38 @@
 }
 
 .hero{
-	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 	height: 450px;
 	text-align: center;
-	color: white;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 70px;
+}
+
+
+
+.contenido-hero{
+	color: #ffffff;
+	width: 100vw;
+}
+
+.texto-hero{
+	width: 80%;
+	margin: 0 auto;
+	@media only screen and (min-width: 992px){
+		width: 60%;
+	}
+	h1{
+		color: white;
+		font-weight: 700;
+	}
 }
 
 .principal{
 	padding: 60px;
-	background-color: #fff;
+	background-color: pink;
 	position: relative;
 	@media only screen and (min-width: 768px){
 		margin-top: -90px;
