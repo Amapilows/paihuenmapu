@@ -16175,18 +16175,22 @@ body {
 }
 
 body p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
 }
 
 body h1,
 body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
+body h3 {
   font-family: 'Montserrat', sans-serif;
   color: #03313a;
   text-align: center;
+}
+
+body h4,
+body h5,
+body h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -16196,18 +16200,22 @@ body {
 }
 
 body p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
 }
 
 body h1,
 body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
+body h3 {
   font-family: 'Montserrat', sans-serif;
   color: #03313a;
   text-align: center;
+}
+
+body h4,
+body h5,
+body h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .page_style {

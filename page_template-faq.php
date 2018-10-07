@@ -1,10 +1,14 @@
+<?php /* Template Name: Faq */ ?>
 <?php get_header() ?>
 	
 
 	<div class="hero" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>">
 		<div class="contenedor-hero">
 			<div class="texto-hero">
-				<h1><?php the_title() ?></h1>
+				<div class="container">
+					<h1><?php the_title() ?></h1>	
+				</div>
+				
 				
 			</div>
 		</div>
