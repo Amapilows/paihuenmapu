@@ -12,9 +12,9 @@
 	
 	<div class="principal container">
 		<div class="texto-centrado contenido-paginas">
-			<?php the_content(); ?>				
+			<?php the_post() ?>
+			<?php the_content(); ?>					
 		</div>
 	</div>
-
 
 <?php get_footer() ?>
