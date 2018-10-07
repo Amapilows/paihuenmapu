@@ -7,13 +7,13 @@ footer{
     .footer-menu{
     	padding-top: 326px;
 		ul li {
-		font-size: 25px;
+		font-size: 20px;
 	    display: inline-block;
 	    list-style-type: none;
 	    text-align: center;
 	    color: white;
 	    @media (max-width: 576px) {
-		font-size: 12px;
+		font-size: 15px;
 		}
 
 	    a {
@@ -27,22 +27,27 @@ footer{
 	    a:hover{
 	    	text-decoration: underline;
 	    	color: #096f56;
+	    	font-weight: 900;
 	    }
 	  }
 	}
     div i{
     	color: white;
-		font-size: 25px;
+		font-size: 30px;
 		margin: 5px;
     }
     .information--footer{
     	p{
     		color: white;
-    		font-size: 25px;
+    		font-size: 18px;
     	    @media (max-width: 576px) {
 			font-size: 15px;
 			padding: 5px;
 			}		
     	}
     }	 
+}
+
+li:last-child .separador{
+	display: none;
 }

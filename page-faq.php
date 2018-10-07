@@ -16,5 +16,5 @@
 			<?php the_content(); ?>					
 		</div>
 	</div>
-
+	<h2>Aquí deberían ir las malditas galerías</h2>
 <?php get_footer() ?>

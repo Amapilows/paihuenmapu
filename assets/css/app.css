@@ -16118,7 +16118,7 @@ footer .footer-menu {
 }
 
 footer .footer-menu ul li {
-  font-size: 25px;
+  font-size: 20px;
   display: inline-block;
   list-style-type: none;
   text-align: center;
@@ -16127,7 +16127,7 @@ footer .footer-menu ul li {
 
 @media (max-width: 576px) {
   footer .footer-menu ul li {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -16143,17 +16143,18 @@ footer .footer-menu ul li a {
 footer .footer-menu ul li a:hover {
   text-decoration: underline;
   color: #096f56;
+  font-weight: 900;
 }
 
 footer div i {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   margin: 5px;
 }
 
 footer .information--footer p {
   color: white;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 @media (max-width: 576px) {
@@ -16161,6 +16162,10 @@ footer .information--footer p {
     font-size: 15px;
     padding: 5px;
   }
+}
+
+li:last-child .separador {
+  display: none;
 }
 
 body {
@@ -16249,8 +16254,7 @@ body h6 {
 }
 
 .principal {
-  padding: 60px;
-  background-color: pink;
+  background-color: rgba(12, 49, 54, 0.6);
   position: relative;
 }
 
@@ -16262,7 +16266,7 @@ body h6 {
 
 .contenido-paginas p {
   font-size: 18px;
-  line-height: 50px;
+  line-height: auto;
 }
 
 .texto-centrado {

@@ -37,8 +37,7 @@
 }
 
 .principal{
-	padding: 60px;
-	background-color: pink;
+	background-color: rgba(12, 49, 54, 0.6);
 	position: relative;
 	@media only screen and (min-width: 768px){
 		margin-top: -90px;
@@ -48,7 +47,7 @@
 .contenido-paginas{
 	p{
 		font-size: 18px;
-		line-height: 50px;
+		line-height: auto;
 	}
 }
 
