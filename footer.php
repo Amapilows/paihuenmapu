@@ -24,6 +24,9 @@
 
      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>../assets/js/app.js"> </script>
      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+ 	 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUTMa5FEZuc4pSEPhn7sH6YNH21-ec7hc&callback=initMap"
+  type="text/javascript"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AAIzaSyAUTMa5FEZuc4pSEPhn7sH6YNH21-ec7hc&callback=initMap">
+	</script>
 </body>
 </html>

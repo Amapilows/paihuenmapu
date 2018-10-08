@@ -13,12 +13,12 @@ function dcms_insertar_google_fonts(){
     wp_enqueue_style('google_fonts', $url);
  }
 
- add_action( 'init', 'cabanas_paihuen' );
+ add_action( 'init', 'lapizzeria_especialidades' );
 function lapizzeria_especialidades() {
 	$labels = array(
-		'name'               => _x( 'Cabana', 'paihuen' ),
-		'singular_name'      => _x( 'Cabana', 'post type singular name', 'paihuen' ),
-		'menu_name'          => _x( 'Cabana', 'admin menu', 'lapizzeria' ),
+		'name'               => _x( 'Pizzas', 'lapizzeria' ),
+		'singular_name'      => _x( 'Pizzas', 'post type singular name', 'lapizzeria' ),
+		'menu_name'          => _x( 'Pizzas', 'admin menu', 'lapizzeria' ),
 		'name_admin_bar'     => _x( 'Pizzas', 'add new on admin bar', 'lapizzeria' ),
 		'add_new'            => _x( 'Add New', 'book', 'lapizzeria' ),
 		'add_new_item'       => __( 'Add New Pizza', 'lapizzeria' ),

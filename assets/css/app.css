@@ -16177,6 +16177,7 @@ body {
 body p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
+  font-weight: 400;
 }
 
 body h1,
@@ -16185,12 +16186,14 @@ body h3 {
   font-family: 'Montserrat', sans-serif;
   color: #03313a;
   text-align: center;
+  font-weight: 900;
 }
 
 body h4,
 body h5,
 body h6 {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 body {
@@ -16202,6 +16205,7 @@ body {
 body p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
+  font-weight: 400;
 }
 
 body h1,
@@ -16210,12 +16214,14 @@ body h3 {
   font-family: 'Montserrat', sans-serif;
   color: #03313a;
   text-align: center;
+  font-weight: 900;
 }
 
 body h4,
 body h5,
 body h6 {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .page_style {
@@ -16279,6 +16285,10 @@ body h6 {
 
 .texto-centrado {
   text-align: center;
+}
+
+.banner-contact {
+  margin-top: 70px;
 }
 
 .home--banner {
