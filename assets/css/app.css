@@ -16291,6 +16291,19 @@ body h6 {
   margin-top: 70px;
 }
 
+.title--contact {
+  position: absolute;
+  line-height: 8;
+  text-transform: uppercase;
+  color: white;
+  font-size: 94px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 40px;
+  line-height: 12;
+  margin-left: 100px;
+}
+
 .home--banner {
   background: url(../images/copihues.jpg?638dd98953b9320aea16df2ff1842f99) no-repeat center center;
   background-size: cover;
